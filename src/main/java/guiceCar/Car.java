@@ -1,8 +1,16 @@
 package guiceCar;
 
+import com.google.inject.Inject;
+
 public class Car {
+
+
     private Wheel wheel;
     private Engine engine;
+
+    public Car() {
+    }
+
 
     public Car(Wheel wheel, Engine engine) {
         this.wheel = wheel;
