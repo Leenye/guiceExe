@@ -10,15 +10,10 @@ import static org.junit.Assert.assertThat;
 
 public class CarTest extends TestCase {
     private Car car;
-    private Wheel wheel;
-    private Engine engine;
 
     @Before
     public void setUp(){
-        wheel = new Wheel();
-        engine = new Engine();
-        car = new Car(wheel, engine);
-
+        car = CarFactory.getInstance();
     }
 
     @Test
