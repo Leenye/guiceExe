@@ -18,6 +18,6 @@ public class CarTest extends TestCase {
 
     @Test
     public void testGetInfo() throws Exception {
-        assertThat(car.getInfo(),is("[wheel: num 4,materail rubber and matel][Engine: power 100.0kw, displacement 1.8]"));
+        assertThat(car.getInfo(),is("mocked wheelThe power of the engine is 100.0, and the displacement is 1.8"));
     }
 }
