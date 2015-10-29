@@ -13,7 +13,7 @@ public class CarTest extends TestCase {
 
     @Before
     public void setUp(){
-        car = CarFactory.getInstance();
+        car = new Car();
     }
 
     @Test

@@ -1,6 +1,7 @@
 package guiceCar;
 
 import com.google.inject.Inject;
+import com.google.inject.name.Named;
 
 public class Wheel {
     private int num;
